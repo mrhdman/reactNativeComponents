@@ -12,6 +12,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.hello}>{Hello}</Text>
+        <ActivityIndicator size="large" color="#0000ff" animating="true" />
       </View>
     );
   }
